@@ -1,0 +1,47 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+
+section.region.region-content {
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card{
+    padding: 0;
+    margin-right: 25px;
+    border-radius: 10px 10px 0 0;
+}
+div#main-wrapper.layout-main-wrapper{
+    background: #f8f9fa;
+
+}
+@media (min-width: 768px){
+
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 31%;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+.views-field {
+    padding: 12px;
+}

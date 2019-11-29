@@ -28,6 +28,7 @@
         "drupal/backup_migrate": "^4.0",
         "drupal/big_pipe_sessionless": "^1.2",
         "drupal/bootstrap": "^3.20",
+        "drupal/bootstrap_barrio": "^4.22",
         "drupal/colorbutton": "^1.1",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
@@ -53,12 +54,14 @@
         "drupal/simple_sitemap": "^3.4",
         "drupal/smtp": "^1.0@beta",
         "drupal/video_embed_field": "^2.2",
+        "drupal/view_password": "^4.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
+        "drupal/devel": "^2.1",
         "webflo/drupal-core-require-dev": "^8.7.0"
     },
     "conflict": {
